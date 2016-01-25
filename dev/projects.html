@@ -1,0 +1,39 @@
+---
+layout: default
+title: projects
+permalink: projects/
+---
+
+<div class="{{ page.title }}-page">
+
+  <h1 class="page-heading">Projects</h1>
+
+ 	<!-- posts categorized ass 'project' -->
+  <h3>Projects</h3>	
+
+  <div class="posts">
+		 {% for post in site.categories.project %}
+		    <div class="post">
+
+		    	<div class="post-thumnail">
+		    		<div class="thumbnail" style="background-image: url({{ post.thumbnail }});"></div>
+		    	</div>
+
+					<div class="post-meta">
+		      	<time>{{ post.date | date: "%b %-d, %Y" }}</time>
+		      	<div>{{ post.categories }}</div>
+		      </div>
+
+		      <div class="post-title">
+		      	<h4><a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></h4>
+		      </div>
+
+		      <div class="post-excerpt">
+		      	{{ post.excerpt }}
+		      </div>
+
+		    </div>
+		  {% endfor %}
+  </div>
+
+</div>
