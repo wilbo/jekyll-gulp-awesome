@@ -6,6 +6,6 @@ there are two main gulp tasks:
 
 if you want to code:
 
-$ git clone https://github.com/wilbo/jekyll-gulp-awesome.git
-$ npm install
-$ gulp --dev
+	$ git clone https://github.com/wilbo/jekyll-gulp-awesome.git
+	$ npm install
+	$ gulp --dev
