@@ -1,14 +1,14 @@
 # Jekyll and Gulp awesomeness
 
-This is just a fresh Jekyll install + a whole lot of automation by Gulp.
+This is just a fresh [Jekyll](http://jekyllrb.com/) install + a whole lot of automation by [Gulp](http://gulpjs.com/).
 
-Normalizer and [skeleton](http://getskeleton.com/) css is used, no more.
+Normalizer and [skeleton](http://getskeleton.com/) css is in there, but if you more a bootstrappy person, feel free te delete it.
 
 there are two main gulp tasks:
 - 'gulp --dev' for developing.
 - 'gulp deploy' for deploying. (Be sure to make a repo for that)
 
-if you want to code:
+do this if you feel like coding:
 
 	$ git clone https://github.com/wilbo/jekyll-gulp-awesome-raw.git
 	$ cd jekyll-gulp-awesome-raw
